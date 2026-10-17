@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class PerceptronVisual:
-    def __init__(self, learning_rate=0.1, epochs=10):
+    def __init__(self, learning_rate=0.1, epochs=8):
         self.lr = learning_rate
         self.epochs = epochs
         self.weights = np.zeros(2)
